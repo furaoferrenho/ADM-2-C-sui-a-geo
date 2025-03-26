@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>calculo de pib ppc</title>
+    <meta charset="utf-8">
+<style type="text/css">
+ body {
+	 text-align: center;
+	 background-image: url('https://i.ibb.co/HLDTSTzx/fundo.png');
+	 background-size: 100%;
+ };
+</style>
+<script src="code.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+	  <div>
+		  <h1> PIB do pais</h1>
+		  <input type="pib"></input>
+    <h1>Participação do estado</h1></p>
+    <input type="number" id="porcentagem"> </input>
+    </p>
+ <h1>numero de pessoas</h1></p>
+ <input type="number" id="pessoas"></input>
+ </div>
+ <button id="enviar" onclick="porta()"> enviar </button>
+ 
+ <dialog open>
+	 <h1> resultado: </h1>
+	 <pre> codigo por arthur c.p gomes</pre>
+	 <pre> esperando valores... </pre>
+	 </canvas>
+ </dialog>
+  </body>
+</html>
