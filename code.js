@@ -8,6 +8,6 @@ const j = document.getElementbyid('pessoas').valve;
 const cpib = pib*(pr/100);
 const ppc = cpib/j ;
 
-alert(pr);
+alert('pr');
 };
 
