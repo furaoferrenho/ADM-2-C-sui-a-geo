@@ -5,7 +5,9 @@ const pr = document.getElementById('porcentagem').valve;
 const pbi = document.getElementById('pib').valve;
 const j = document.getElementbyid('pessoas').valve;
 
-const cpib = pib*(pr/100)
-const ppc = cpib/j 
+const cpib = pib*(pr/100);
+const ppc = cpib/j ;
+
+alert(cpib,ppc):
 };
 
