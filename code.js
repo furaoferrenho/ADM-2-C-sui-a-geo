@@ -1,4 +1,4 @@
-         alert('Esse site é feito por um aluno do encino medio por tento, Não há o trabalho de portalo para um celular, se possivel abra isto em um computador');
+         alert('Esse site é feito por um aluno do ensino medio por tanto, Não tive o trabalho de portalo para um celular, se possível que apresente alguns problemas pelo dispositivo movel');
 
 const porta = () =>{
 const pr = document.getElementById("porcentagem").value;
