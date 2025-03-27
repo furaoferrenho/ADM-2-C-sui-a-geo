@@ -3,7 +3,7 @@
 const porta = () =>{
 const pr = document.getElementById("porcentagem").value;
 const pbi = document.getElementById("pib").value;
-const j = document.getElementbyid("pessoas").value;
+const j = document.getElementById("pessoas").value;
 
 const cpib = pib * (pr / 100);
 const ppc = cpib / j;
