@@ -8,6 +8,6 @@ const j = document.getElementById("pessoas").value;
 const cpib = pib * (pr / 100);
 const ppc = cpib / j;
 
-document.getelementbyid("resultado").innerhtml("pibc é ${cpib} </p> pib percapita é ${ppc}")
+document.getelementbyid("resultado").innerhtml("pibc é ${cpib} </p> pib percapita é ${ppc}");
 };
 
