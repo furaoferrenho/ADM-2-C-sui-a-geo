@@ -9,7 +9,7 @@ const cpib = pib*(pr/100);
 const ppc = cpib/j ;
 
 let docment.getElementById('resultado').innerHTML = 'pib é ${cpib}</p> ppc é ${ppc}';
-alert("isto funciona?");
+alert('isto funciona?');
 };
 
 
