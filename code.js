@@ -8,7 +8,7 @@ const j = document.getElementbyid('pessoas').value;
 const cpib = pib*(pr/100);
 const ppc = cpib/j ;
 
-let docment.getElementById('resultado').innerHTML = 'pib é ${cpib}</p> ppc é ${ppc}';
+const docment.getElementById('resultado').innerHTML = 'pib é ${cpib}</p> ppc é ${ppc}';
 alert('isto funciona?');
 };
 
