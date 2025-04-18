@@ -5,8 +5,8 @@ var pr = parseFloat(document.getElementById('porcentagem').value);
 var pbi = parseFloat(document.getElementById('pib').value);
 var j = parseFloat(document.getElementById('pessoas').value);
 
-var cpib = pib*(pr/100);
-var ppc = cpib/j ;
+var cpib = pib*(pr/100) *1;
+var ppc = cpib/j *1 ;
 
  docment.getElementById('resultado').innerHTML = 'pib é ${cpib}</p> ppc é ${ppc}';
 alert('isto funciona?');
