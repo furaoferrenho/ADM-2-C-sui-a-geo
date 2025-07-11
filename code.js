@@ -1,16 +1,29 @@
         alert('Esse site é feito por um aluno do ensino medio por tento, se possivel abra isto em um computador poís ele pode ter problemas de compatibilidade');
 
-function porta(){
-var pr = parseFloat(document.getElementById("porcentagem").value);
-var pbi = parseFloat(document.getElementById("pib").value);
-var j = parseFloat(document.getElementById("pessoas").value);
 
-var cpib = pib*(pr/100) *1;
-var ppc = cpib/j *1 ;
+function porta() {
+  calculo.porc = parseFloat(document.getElementById("porcentagem").value);
+  calculo.pib = parseFloat(document.getElementById("pib").value);
+  calculo.pessoa =parseFloat(document.getElementById("pessoas").value);
 
- docment.getElementById("resultado").innerHTML = 'pib é ${cpib}</p> ppc é ${ppc}';
-alert('isto funciona?');
-};
-
+ if (calculo.pib && calculo.porc && calculo.pessoa >= 0) {
+calculo();
+alert("pib do estado é "+ calculo.pib + "$, pib por pessoa no estado é "+ calculo.pessoa+"$");
+ } else{
+        alert('por favor coloque outro valor');
+ }
+}
+function calculo(pib,porc,pessoa){
+ calculo.pib = calculo.pib*(calculo.porc/100);
+ calculo.pessoa = calculo.pib/calculo.pessoa;
+ return calculo;
+}
+function teste(){
+        alert(calculo.pib);
+        alert(calculo.porc);
+        alert(calculo.pessoa);
+        alert("pib por estado é "+ calculo.pib + "$, pib por pessoa no estado é "+ calculo.pessoa+"$");
+        docment.getElementById('resp').innerText = "oba";
+}
 
 
