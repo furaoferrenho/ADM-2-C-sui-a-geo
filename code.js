@@ -1,4 +1,4 @@
-        alert('Esse site é feito por um aluno do ensino medio por tento, se possivel abra isto em um computador poís ele pode ter problemas de compatibilidade');
+        alert('este site pode ter problemas de compatibilidade com disposivios moveis');
 
 
 function porta() {
